@@ -122,4 +122,5 @@ public class Q003 {
         return responseMap;
     }
 }
-// 完成までの時間: xx時間 xx分
+// streamをいろいろ勉強しつつ
+// 完成までの時間: 2時間 00分
