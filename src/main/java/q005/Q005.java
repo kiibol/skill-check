@@ -196,4 +196,4 @@ public class Q005 {
         return hour + "時間" + minute + "分";
     }
 }
-// 完成までの時間: xx時間 xx分
+// 完成までの時間: 2時間 10分
