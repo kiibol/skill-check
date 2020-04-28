@@ -1,5 +1,7 @@
 package q002;
 
+import java.util.*;
+
 /**
  * Q002 並べ替える
  *
@@ -45,5 +47,14 @@ public class Q002 {
             "14,林",
             "9,清水"
     };
+    public static void main(String[] args) {
+        Map<Integer, String> listMap = new TreeMap<>();
+
+        Arrays.stream(dataList).forEach(item -> {
+            String[] mapItem = item.split(",");
+            listMap.put(Integer.parseInt(mapItem[0]), mapItem[1]);
+        });
+        listMap.forEach((key, value) -> System.out.println(key + "," + value));
+    }
 }
-// 完成までの時間: xx時間 xx分
+// 完成までの時間: xx時間 25分
